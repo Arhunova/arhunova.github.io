@@ -1,0 +1,35 @@
+.hero {
+    margin-top: 100px;
+    height: 100vh;
+    padding: 120px 0;
+    position: relative;
+    &__wrapper {
+        display: flex;
+        flex-direction: column;
+        gap: 15px;
+    }
+    &__sub {
+        color: gray;
+    }
+    &__button {
+        &:hover {
+            transform: scale(1.05);
+        }
+        transition: .3s all ease;
+        margin-top: 15px;
+        text-decoration: none;
+        padding: 20px 30px;
+        background-color: #62A5AE;
+        border-radius: 5px;
+        color: white;
+        text-align: center;
+        width: 225px;
+    }
+    &__img {
+        bottom: 20%;
+        max-width: 60%;
+        position: absolute;
+        right: 0;
+        z-index: -1;
+    }
+}

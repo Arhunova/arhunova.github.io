@@ -1,0 +1,19 @@
+.practice {
+  margin-top: 100px;
+  padding: 120px 0 60px 0;
+}
+.practice h1 {
+  text-align: center;
+  margin-bottom: 60px;
+}
+.practice__item {
+  margin-top: 60px;
+}
+.practice__item img {
+  display: block;
+  margin: 0 auto;
+  width: 80%;
+}
+.practice .regTXT {
+  margin-bottom: 30px;
+}

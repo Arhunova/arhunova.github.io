@@ -1,0 +1,36 @@
+.what {
+  padding: 120px 0;
+  margin-top: 100px;
+}
+.what h1 {
+  text-align: center;
+  margin-bottom: 60px;
+}
+.what__wrapper {
+  width: 100%;
+  margin-top: 60px;
+  display: grid;
+  grid-template-columns: 3fr 1fr;
+}
+.what .wrapper1 {
+  margin-top: 0;
+}
+.what .wrapper1 img {
+  width: 100%;
+}
+.what .wrapper2, .what .wrapper3, .what .wrapper4 {
+  grid-template-columns: 3fr 2fr;
+}
+.what .wrapper2 img, .what .wrapper3 img, .what .wrapper4 img {
+  width: 60%;
+  display: block;
+  margin: 0 auto;
+}
+
+.mt-120 {
+  margin-top: 120px;
+}
+
+.mt-60 {
+  margin-top: 60px;
+}

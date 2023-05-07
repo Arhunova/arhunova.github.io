@@ -1,0 +1,19 @@
+.pluses {
+  margin-top: 100px;
+  padding: 120px 0 60px 0;
+}
+.pluses h1 {
+  text-align: center;
+}
+.pluses__wrapper {
+  display: grid;
+  grid-template-columns: 1.5fr 1fr;
+}
+.pluses__img {
+  width: 60%;
+  display: block;
+  margin: 0 auto;
+}
+.pluses .regTXT {
+  margin-top: 60px;
+}

@@ -1,0 +1,32 @@
+.hero__title {
+  font-weight: 700;
+  font-size: 48px;
+  color: black;
+}
+
+h1 {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 40px;
+  line-height: 72px;
+}
+
+.regTXT {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 140%;
+}
+
+h2 {
+  font-weight: 500;
+  font-size: 40px;
+  line-height: 72px;
+}
+
+h3 {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 28px;
+  line-height: 50px;
+}

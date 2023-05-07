@@ -1,0 +1,42 @@
+.hero {
+  margin-top: 100px;
+  height: 100vh;
+  padding: 120px 0;
+  position: relative;
+}
+.hero__wrapper {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  gap: 15px;
+}
+.hero__sub {
+  color: gray;
+}
+.hero__button {
+  -webkit-transition: 0.3s all ease;
+  transition: 0.3s all ease;
+  margin-top: 15px;
+  text-decoration: none;
+  padding: 20px 30px;
+  background-color: #62A5AE;
+  border-radius: 5px;
+  color: white;
+  text-align: center;
+  width: 225px;
+}
+.hero__button:hover {
+  -webkit-transform: scale(1.05);
+          transform: scale(1.05);
+}
+.hero__img {
+  bottom: 20%;
+  max-width: 60%;
+  position: absolute;
+  right: 0;
+  z-index: -1;
+}
